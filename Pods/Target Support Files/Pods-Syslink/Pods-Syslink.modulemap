@@ -1,0 +1,6 @@
+framework module Pods_Syslink {
+  umbrella header "Pods-Syslink-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module M2MFramework {
+  umbrella header "M2MFramework.h"
+
+  export *
+  module * { export * }
+}

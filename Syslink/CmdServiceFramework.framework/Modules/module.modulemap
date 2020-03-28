@@ -1,0 +1,6 @@
+framework module CmdServiceFramework {
+  umbrella header "CmdServiceFramework.h"
+
+  export *
+  module * { export * }
+}

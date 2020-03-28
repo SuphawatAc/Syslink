@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE55C09FC39FF00C729005C /* Pods_SyslinkPODS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB30319AE6DEB7585532BAA /* Pods_SyslinkPODS.framework */; platformFilter = ios; };
+		6BB1B68283E910C33ACBF0C2 /* Pods_Syslink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004C4988146A5FC8B815563 /* Pods_Syslink.framework */; };
+		9B76A4BC242F59CA00553D78 /* SyslinkPODSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76A4BB242F59CA00553D78 /* SyslinkPODSTests.swift */; };
+		9B76A4BE242F59CA00553D78 /* SyslinkPODS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B76A4B0242F59CA00553D78 /* SyslinkPODS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B76A4CE242F5B8900553D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76A4CD242F5B8900553D78 /* AppDelegate.swift */; };
+		9B76A4D0242F5B8900553D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76A4CF242F5B8900553D78 /* SceneDelegate.swift */; };
+		9B76A4D2242F5B8900553D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76A4D1242F5B8900553D78 /* ViewController.swift */; };
+		9B76A4D5242F5B8900553D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B76A4D3242F5B8900553D78 /* Main.storyboard */; };
+		9B76A4D8242F5B8900553D78 /* Syslink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B76A4D6242F5B8900553D78 /* Syslink.xcdatamodeld */; };
+		9B76A4DA242F5B8B00553D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B76A4D9242F5B8B00553D78 /* Assets.xcassets */; };
+		9B76A4DD242F5B8B00553D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B76A4DB242F5B8B00553D78 /* LaunchScreen.storyboard */; };
+		9B76A4E9242F5EB000553D78 /* OrbwebM2MKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */; };
+		9B76A4EC242F5EB000553D78 /* M2MFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E6242F5EB000553D78 /* M2MFramework.framework */; };
+		9B76A4EE242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E7242F5EB000553D78 /* CmdServiceFramework.framework */; platformFilter = ios; };
+		9B76A4EF242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E7242F5EB000553D78 /* CmdServiceFramework.framework */; };
+		9B76A4F0242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E7242F5EB000553D78 /* CmdServiceFramework.framework */; };
+		9B76A4F1242F60FF00553D78 /* M2MFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E6242F5EB000553D78 /* M2MFramework.framework */; platformFilter = ios; };
+		9B76A4F2242F60FF00553D78 /* M2MFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E6242F5EB000553D78 /* M2MFramework.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B76A4F4242F610200553D78 /* OrbwebM2MKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */; platformFilter = ios; };
+		9B76A4F5242F610200553D78 /* OrbwebM2MKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B76A4F6242F610600553D78 /* M2MFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E6242F5EB000553D78 /* M2MFramework.framework */; };
+		9B76A4F7242F610600553D78 /* M2MFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E6242F5EB000553D78 /* M2MFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B76A4F9242F610700553D78 /* OrbwebM2MKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */; };
+		9B76A4FA242F610700553D78 /* OrbwebM2MKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B76A4B8242F59CA00553D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B76A4A4242F59CA00553D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B76A4AC242F59CA00553D78;
+			remoteInfo = SyslinkPODS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B76A4F3242F60FF00553D78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B76A4F2242F60FF00553D78 /* M2MFramework.framework in Embed Frameworks */,
+				9B76A4F5242F610200553D78 /* OrbwebM2MKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4F8242F610600553D78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B76A4F7242F610600553D78 /* M2MFramework.framework in Embed Frameworks */,
+				9B76A4FA242F610700553D78 /* OrbwebM2MKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12FA45656EA858243CE86BD5 /* Pods-Syslink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syslink.debug.xcconfig"; path = "Target Support Files/Pods-Syslink/Pods-Syslink.debug.xcconfig"; sourceTree = "<group>"; };
+		4004C4988146A5FC8B815563 /* Pods_Syslink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Syslink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8C962F9DF7A2E435852074 /* Pods-SyslinkPODS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyslinkPODS.debug.xcconfig"; path = "Target Support Files/Pods-SyslinkPODS/Pods-SyslinkPODS.debug.xcconfig"; sourceTree = "<group>"; };
+		824009D765D708DB9A80DF76 /* Pods-SyslinkPODS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyslinkPODS.release.xcconfig"; path = "Target Support Files/Pods-SyslinkPODS/Pods-SyslinkPODS.release.xcconfig"; sourceTree = "<group>"; };
+		9B76A4B0242F59CA00553D78 /* SyslinkPODS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyslinkPODS.h; sourceTree = "<group>"; };
+		9B76A4B1242F59CA00553D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B76A4B6242F59CA00553D78 /* SyslinkPODSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyslinkPODSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76A4BB242F59CA00553D78 /* SyslinkPODSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyslinkPODSTests.swift; sourceTree = "<group>"; };
+		9B76A4BD242F59CA00553D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B76A4CB242F5B8800553D78 /* Syslink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syslink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76A4CD242F5B8900553D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B76A4CF242F5B8900553D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B76A4D1242F5B8900553D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B76A4D4242F5B8900553D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B76A4D7242F5B8900553D78 /* Syslink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Syslink.xcdatamodel; sourceTree = "<group>"; };
+		9B76A4D9242F5B8B00553D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B76A4DC242F5B8B00553D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B76A4DE242F5B8B00553D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B76A4E2242F5BCD00553D78 /* Syslink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Syslink-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OrbwebM2MKit.framework; sourceTree = "<group>"; };
+		9B76A4E6242F5EB000553D78 /* M2MFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = M2MFramework.framework; sourceTree = "<group>"; };
+		9B76A4E7242F5EB000553D78 /* CmdServiceFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CmdServiceFramework.framework; sourceTree = "<group>"; };
+		AF546FA33B5B883525E04CD2 /* Pods-Syslink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syslink.release.xcconfig"; path = "Target Support Files/Pods-Syslink/Pods-Syslink.release.xcconfig"; sourceTree = "<group>"; };
+		ECB30319AE6DEB7585532BAA /* Pods_SyslinkPODS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyslinkPODS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B76A4AA242F59CA00553D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4F1242F60FF00553D78 /* M2MFramework.framework in Frameworks */,
+				9B76A4EE242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */,
+				2CE55C09FC39FF00C729005C /* Pods_SyslinkPODS.framework in Frameworks */,
+				9B76A4F4242F610200553D78 /* OrbwebM2MKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4B3242F59CA00553D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4EC242F5EB000553D78 /* M2MFramework.framework in Frameworks */,
+				9B76A4EF242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */,
+				9B76A4E9242F5EB000553D78 /* OrbwebM2MKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4C8242F5B8800553D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4F6242F610600553D78 /* M2MFramework.framework in Frameworks */,
+				9B76A4F0242F5EB000553D78 /* CmdServiceFramework.framework in Frameworks */,
+				6BB1B68283E910C33ACBF0C2 /* Pods_Syslink.framework in Frameworks */,
+				9B76A4F9242F610700553D78 /* OrbwebM2MKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED4E3719F0659DB39828B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4004C4988146A5FC8B815563 /* Pods_Syslink.framework */,
+				ECB30319AE6DEB7585532BAA /* Pods_SyslinkPODS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B76A4A3242F59CA00553D78 = {
+			isa = PBXGroup;
+			children = (
+				9B76A4AF242F59CA00553D78 /* SyslinkPODS */,
+				9B76A4BA242F59CA00553D78 /* SyslinkPODSTests */,
+				9B76A4CC242F5B8900553D78 /* Syslink */,
+				9B76A4AE242F59CA00553D78 /* Products */,
+				B60D265D8B688FBA2B003F75 /* Pods */,
+				0ED4E3719F0659DB39828B41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B76A4AE242F59CA00553D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B76A4B6242F59CA00553D78 /* SyslinkPODSTests.xctest */,
+				9B76A4CB242F5B8800553D78 /* Syslink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B76A4AF242F59CA00553D78 /* SyslinkPODS */ = {
+			isa = PBXGroup;
+			children = (
+				9B76A4B0242F59CA00553D78 /* SyslinkPODS.h */,
+				9B76A4B1242F59CA00553D78 /* Info.plist */,
+			);
+			path = SyslinkPODS;
+			sourceTree = "<group>";
+		};
+		9B76A4BA242F59CA00553D78 /* SyslinkPODSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B76A4BB242F59CA00553D78 /* SyslinkPODSTests.swift */,
+				9B76A4BD242F59CA00553D78 /* Info.plist */,
+			);
+			path = SyslinkPODSTests;
+			sourceTree = "<group>";
+		};
+		9B76A4CC242F5B8900553D78 /* Syslink */ = {
+			isa = PBXGroup;
+			children = (
+				9B76A4CD242F5B8900553D78 /* AppDelegate.swift */,
+				9B76A4CF242F5B8900553D78 /* SceneDelegate.swift */,
+				9B76A4D1242F5B8900553D78 /* ViewController.swift */,
+				9B76A4E7242F5EB000553D78 /* CmdServiceFramework.framework */,
+				9B76A4E6242F5EB000553D78 /* M2MFramework.framework */,
+				9B76A4E5242F5EB000553D78 /* OrbwebM2MKit.framework */,
+				9B76A4D3242F5B8900553D78 /* Main.storyboard */,
+				9B76A4D9242F5B8B00553D78 /* Assets.xcassets */,
+				9B76A4DB242F5B8B00553D78 /* LaunchScreen.storyboard */,
+				9B76A4DE242F5B8B00553D78 /* Info.plist */,
+				9B76A4D6242F5B8900553D78 /* Syslink.xcdatamodeld */,
+				9B76A4E2242F5BCD00553D78 /* Syslink-Bridging-Header.h */,
+			);
+			path = Syslink;
+			sourceTree = "<group>";
+		};
+		B60D265D8B688FBA2B003F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12FA45656EA858243CE86BD5 /* Pods-Syslink.debug.xcconfig */,
+				AF546FA33B5B883525E04CD2 /* Pods-Syslink.release.xcconfig */,
+				7E8C962F9DF7A2E435852074 /* Pods-SyslinkPODS.debug.xcconfig */,
+				824009D765D708DB9A80DF76 /* Pods-SyslinkPODS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B76A4A8242F59CA00553D78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4BE242F59CA00553D78 /* SyslinkPODS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B76A4AC242F59CA00553D78 /* SyslinkPODS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76A4C1242F59CA00553D78 /* Build configuration list for PBXNativeTarget "SyslinkPODS" */;
+			buildPhases = (
+				C6AEA26F4BAF339FCA8940E5 /* [CP] Check Pods Manifest.lock */,
+				9B76A4A8242F59CA00553D78 /* Headers */,
+				9B76A4A9242F59CA00553D78 /* Sources */,
+				9B76A4AA242F59CA00553D78 /* Frameworks */,
+				9B76A4AB242F59CA00553D78 /* Resources */,
+				9B76A4F3242F60FF00553D78 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyslinkPODS;
+			productName = SyslinkPODS;
+			productType = "com.apple.product-type.framework";
+		};
+		9B76A4B5242F59CA00553D78 /* SyslinkPODSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76A4C4242F59CA00553D78 /* Build configuration list for PBXNativeTarget "SyslinkPODSTests" */;
+			buildPhases = (
+				9B76A4B2242F59CA00553D78 /* Sources */,
+				9B76A4B3242F59CA00553D78 /* Frameworks */,
+				9B76A4B4242F59CA00553D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B76A4B9242F59CA00553D78 /* PBXTargetDependency */,
+			);
+			name = SyslinkPODSTests;
+			productName = SyslinkPODSTests;
+			productReference = 9B76A4B6242F59CA00553D78 /* SyslinkPODSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B76A4CA242F5B8800553D78 /* Syslink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76A4DF242F5B8B00553D78 /* Build configuration list for PBXNativeTarget "Syslink" */;
+			buildPhases = (
+				A4B013034A72A854E67D4496 /* [CP] Check Pods Manifest.lock */,
+				9B76A4C7242F5B8800553D78 /* Sources */,
+				9B76A4C8242F5B8800553D78 /* Frameworks */,
+				9B76A4C9242F5B8800553D78 /* Resources */,
+				802C0A46CB9EFD4C262344B1 /* [CP] Embed Pods Frameworks */,
+				9B76A4F8242F610600553D78 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syslink;
+			productName = Syslink;
+			productReference = 9B76A4CB242F5B8800553D78 /* Syslink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B76A4A4242F59CA00553D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = VAARI;
+				TargetAttributes = {
+					9B76A4AC242F59CA00553D78 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9B76A4B5242F59CA00553D78 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9B76A4CA242F5B8800553D78 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 9B76A4A7242F59CA00553D78 /* Build configuration list for PBXProject "SyslinkPODS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B76A4A3242F59CA00553D78;
+			productRefGroup = 9B76A4AE242F59CA00553D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B76A4AC242F59CA00553D78 /* SyslinkPODS */,
+				9B76A4B5242F59CA00553D78 /* SyslinkPODSTests */,
+				9B76A4CA242F5B8800553D78 /* Syslink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B76A4AB242F59CA00553D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4B4242F59CA00553D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4C9242F5B8800553D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4DD242F5B8B00553D78 /* LaunchScreen.storyboard in Resources */,
+				9B76A4DA242F5B8B00553D78 /* Assets.xcassets in Resources */,
+				9B76A4D5242F5B8900553D78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		802C0A46CB9EFD4C262344B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Syslink/Pods-Syslink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Syslink/Pods-Syslink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Syslink/Pods-Syslink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B013034A72A854E67D4496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Syslink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AEA26F4BAF339FCA8940E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyslinkPODS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B76A4A9242F59CA00553D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4B2242F59CA00553D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4BC242F59CA00553D78 /* SyslinkPODSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76A4C7242F5B8800553D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76A4D2242F5B8900553D78 /* ViewController.swift in Sources */,
+				9B76A4D8242F5B8900553D78 /* Syslink.xcdatamodeld in Sources */,
+				9B76A4CE242F5B8900553D78 /* AppDelegate.swift in Sources */,
+				9B76A4D0242F5B8900553D78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B76A4B9242F59CA00553D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B76A4AC242F59CA00553D78 /* SyslinkPODS */;
+			targetProxy = 9B76A4B8242F59CA00553D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B76A4D3242F5B8900553D78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B76A4D4242F5B8900553D78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B76A4DB242F5B8B00553D78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B76A4DC242F5B8B00553D78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B76A4BF242F59CA00553D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B76A4C0242F59CA00553D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B76A4C2242F59CA00553D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8C962F9DF7A2E435852074 /* Pods-SyslinkPODS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = SyslinkPODS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.SyslinkPODS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B76A4C3242F59CA00553D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824009D765D708DB9A80DF76 /* Pods-SyslinkPODS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = SyslinkPODS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.SyslinkPODS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B76A4C5242F59CA00553D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = SyslinkPODSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.SyslinkPODSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B76A4C6242F59CA00553D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = SyslinkPODSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.SyslinkPODSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B76A4E0242F5B8B00553D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FA45656EA858243CE86BD5 /* Pods-Syslink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = Syslink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.Syslink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Syslink/Syslink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B76A4E1242F5B8B00553D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF546FA33B5B883525E04CD2 /* Pods-Syslink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXW22LDWC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Syslink",
+				);
+				INFOPLIST_FILE = Syslink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vaari.Syslink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Syslink/Syslink-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B76A4A7242F59CA00553D78 /* Build configuration list for PBXProject "SyslinkPODS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76A4BF242F59CA00553D78 /* Debug */,
+				9B76A4C0242F59CA00553D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76A4C1242F59CA00553D78 /* Build configuration list for PBXNativeTarget "SyslinkPODS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76A4C2242F59CA00553D78 /* Debug */,
+				9B76A4C3242F59CA00553D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76A4C4242F59CA00553D78 /* Build configuration list for PBXNativeTarget "SyslinkPODSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76A4C5242F59CA00553D78 /* Debug */,
+				9B76A4C6242F59CA00553D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76A4DF242F5B8B00553D78 /* Build configuration list for PBXNativeTarget "Syslink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76A4E0242F5B8B00553D78 /* Debug */,
+				9B76A4E1242F5B8B00553D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B76A4D6242F5B8900553D78 /* Syslink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B76A4D7242F5B8900553D78 /* Syslink.xcdatamodel */,
+			);
+			currentVersion = 9B76A4D7242F5B8900553D78 /* Syslink.xcdatamodel */;
+			path = Syslink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B76A4A4242F59CA00553D78 /* Project object */;
+}
